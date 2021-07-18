@@ -79,14 +79,8 @@ public class basic extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         Sideplane1 = new javax.swing.JPanel();
         side_plane_btn2_con1 = new javax.swing.JPanel();
         home_icon5 = new javax.swing.JLabel();
@@ -131,7 +125,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn2_con.add(Side_plane_btn_2);
-        Side_plane_btn_2.setBounds(91, 17, 179, 18);
+        Side_plane_btn_2.setBounds(91, 17, 179, 17);
 
         Sideplane.add(side_plane_btn2_con, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 300, 50));
 
@@ -177,7 +171,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn4_con.add(Side_plane_btn_4);
-        Side_plane_btn_4.setBounds(91, 17, 179, 18);
+        Side_plane_btn_4.setBounds(91, 17, 179, 17);
 
         Sideplane.add(side_plane_btn4_con, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 320, 300, 50));
 
@@ -195,7 +189,7 @@ public class basic extends javax.swing.JFrame {
         Side_plane_btn_5.setText("Employ Benefits");
         Side_plane_btn_5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         side_plane_btn5_con.add(Side_plane_btn_5);
-        Side_plane_btn_5.setBounds(91, 17, 179, 18);
+        Side_plane_btn_5.setBounds(91, 17, 179, 17);
 
         Sideplane.add(side_plane_btn5_con, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, 300, 50));
 
@@ -218,7 +212,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn1_con.add(Side_Plane_btn_1);
-        Side_Plane_btn_1.setBounds(91, 17, 179, 18);
+        Side_Plane_btn_1.setBounds(91, 17, 179, 17);
 
         Sideplane.add(side_plane_btn1_con, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 300, 50));
         Sideplane.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 130, 20));
@@ -300,56 +294,9 @@ public class basic extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Hspt name");
-
-        jList1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createMatteBorder(12, 1, 1, 1, new java.awt.Color(204, 204, 204)), "SLOTS", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
-        jScrollPane2.setViewportView(jList1);
-
-        jLabel4.setText("Vaccine Name");
-
-        jLabel5.setText("Dose2");
-
-        jLabel8.setText("Dose1");
-
-        jLabel9.setText("Min Age");
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel9)
-                        .addGap(54, 54, 54)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(jLabel8)
-                                .addGap(48, 48, 48)
-                                .addComponent(jLabel5))
-                            .addComponent(jLabel4))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 256, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(13, 13, 13)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel5))
-                .addContainerGap(24, Short.MAX_VALUE))
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-        );
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout bsk_gd2Layout = new javax.swing.GroupLayout(bsk_gd2);
         bsk_gd2.setLayout(bsk_gd2Layout);
@@ -373,9 +320,9 @@ public class basic extends javax.swing.JFrame {
                         .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 750, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(bsk_gd2Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(80, 80, 80))
+                        .addGap(34, 34, 34)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 678, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(80, Short.MAX_VALUE))
         );
         bsk_gd2Layout.setVerticalGroup(
             bsk_gd2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -393,9 +340,9 @@ public class basic extends javax.swing.JFrame {
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(28, 28, 28)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         jPanel2.add(bsk_gd2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 0, 830, 680));
@@ -422,7 +369,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn2_con1.add(Side_plane_btn_6);
-        Side_plane_btn_6.setBounds(91, 17, 179, 18);
+        Side_plane_btn_6.setBounds(91, 17, 179, 17);
 
         Sideplane1.add(side_plane_btn2_con1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 300, 50));
 
@@ -468,7 +415,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn4_con1.add(Side_plane_btn_8);
-        Side_plane_btn_8.setBounds(91, 17, 179, 18);
+        Side_plane_btn_8.setBounds(91, 17, 179, 17);
 
         Sideplane1.add(side_plane_btn4_con1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 320, 300, 50));
 
@@ -486,7 +433,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn5_con1.add(Side_plane_btn_9);
-        Side_plane_btn_9.setBounds(91, 17, 179, 25);
+        Side_plane_btn_9.setBounds(91, 17, 179, 22);
 
         home_icon8.setForeground(new java.awt.Color(255, 255, 255));
         side_plane_btn5_con1.add(home_icon8);
@@ -508,7 +455,7 @@ public class basic extends javax.swing.JFrame {
             }
         });
         side_plane_btn1_con1.add(Side_Plane_btn_2);
-        Side_Plane_btn_2.setBounds(91, 17, 179, 18);
+        Side_Plane_btn_2.setBounds(91, 17, 179, 17);
 
         home_icon9.setForeground(new java.awt.Color(255, 255, 255));
         side_plane_btn1_con1.add(home_icon9);
@@ -645,17 +592,24 @@ public class basic extends javax.swing.JFrame {
                     jsonObj.get("state_name") + " " + pincodel;
             String fee_type = (String) jsonObj.get("fee_type");
             Long min_age = (Long) jsonObj.get("min_age_limit");
-            jLabel3.setText(name);
-            jLabel4.setText(vaccine);
+
             System.out.println(name);
             System.out.println(address);
             System.out.println(fee_type);
-            jLabel9.setText(Long.toString(min_age));
+
             
             Long capacity_dose1 = (Long) jsonObj.get("available_capacity_dose1");
             Long capacity_dose2 = (Long) jsonObj.get("available_capacity_dose2");
-            jLabel8.setText(Long.toString(capacity_dose1));
-            jLabel5.setText(Long.toString(capacity_dose2));
+
+            
+            jTextArea1.append("Name:\t\t" + name + "\n");
+            jTextArea1.append("Vaccine:\t\t" + vaccine + "\n");
+            jTextArea1.append("Centre Location:\t" + address + "\n");
+            jTextArea1.append("Fee Type:\t\t" + fee_type + "\n");
+            jTextArea1.append("Minimum Age:\t\t" + Long.toString(min_age) + "\n");
+            jTextArea1.append("Dose 1 Capacity:\t" + Long.toString(capacity_dose1) + "\n");
+            jTextArea1.append("Dose 2 Capacity:\t" + Long.toString(capacity_dose2) + "\n");
+            jTextArea1.append("\n\n");
         }
         ResultsPanel resultsPanel = new ResultsPanel();
         resultsPanel.layoutVaccineResults(responseArr);
@@ -764,22 +718,16 @@ public class basic extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JList<String> jList1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JLabel sidePlane_JAVA_label;
